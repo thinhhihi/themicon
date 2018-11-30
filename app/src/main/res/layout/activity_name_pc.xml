@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="500dp"
+    android:layout_gravity="center"
+    tools:context=".activity.NamePCActivity">
+
+
+<TextView
+    android:textSize="20sp"
+    android:textStyle="bold"
+    android:id="@+id/textViewTitle"
+    android:layout_gravity="center"
+    android:text="@string/namepc1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" />
+
+
+    <ImageView
+        android:id="@+id/imglogoclick"
+        android:layout_gravity="center"
+        android:src="@drawable/pc1"
+        android:layout_width="300dp"
+        android:layout_height="300dp" />
+
+    <TextView
+        android:id="@+id/textViewShortDesc"
+        android:layout_gravity="center"
+        android:text="@string/ramname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/textViewPrice"
+        android:layout_gravity="center"
+        android:text="@string/hddname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnThem"
+        android:onClick="themvaogiohang1"
+        android:layout_gravity="center"
+        android:padding="5dp"
+        android:text="Thêm vào giỏ hàng"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</LinearLayout>
